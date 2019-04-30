@@ -120,7 +120,7 @@ function onLoad(framework) {
     // set camera position and rotation point
     camera.position.set(0, 55, 75);
     camera.lookAt(new THREE.Vector3(0, 0, 0));
-    controls.target.set(0, 2, -3);
+    controls.target.set(0, 0, 0);
 
     //add smith head to scene
     //perform all these operations after all the data is loaded
